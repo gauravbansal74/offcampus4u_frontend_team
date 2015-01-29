@@ -30,8 +30,20 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/1.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/2.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('img/3.jpg');"></div>
+            </div>
+            <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -117,19 +129,7 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-            </div>
+
         </div>
 
         <!-- Controls
@@ -140,14 +140,17 @@
             <span class="icon-next"></span>
         </a>-->
         <!--Search Form --> 
-          <form class="col-sm-12" id="searchForm">
-            <div class="form-group col-sm-4 col-sm-offset-4">
-              <div class="input-group input-group-lg center-block">
+        <div class="col-sm-6 col-sm-offset-3 abcd">
+          <h2>Hot Spot for Start-Up Jobs</h2>
+          <form class="col-sm-12 searchForm">
+            <div class="form-group">
+              <div class="input-group input-group-lg">
                 <input class="form-control" placeholder="Job Title, Keywords or Company" type="text">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
               </div>
             </div>
         </form>
+      </div>  
     </header>
 
     <!-- Page Content -->

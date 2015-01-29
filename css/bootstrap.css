@@ -5,8 +5,10 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import "http://fonts.googleapis.com/css?family=Raleway:400,300,600,500,700";
+
 html {
-  font-family: sans-serif;
+   font-family: "Raleway",serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -27,6 +29,7 @@ nav,
 section,
 summary {
   display: block;
+  font-family: "Raleway",serif;
 }
 audio,
 canvas,
@@ -4475,7 +4478,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: rgba(124, 178, 40, 0.95);
+  background-color:#323232;
 }
 .navbar-inverse .navbar-brand {
   color: #9d9d9d;
@@ -4489,11 +4492,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #000;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #000;
+  color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #4c83c3;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
@@ -6053,6 +6056,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
+
 }
 .carousel-inner > .item {
   position: relative;
@@ -6564,9 +6568,28 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-#searchForm {
-  position:absolute;
-  top:40%;
-  z-index: 999;
-  opacity: 0.9;
+.searchForm {
+  vertical-align: middle;
+}
+.abcd {
+z-index: 9999;
+position: absolute;
+bottom:0;
+padding:28px;
+background: none repeat scroll 0 0 rgba(51, 51, 51, 0.8);
+border-radius: 8px;
+}
+.btn-new {
+    background-color: #4c83c3;
+    color: #fff;
+    height: 45px;
+    padding: 10px;
+    vertical-align: middle;
+    width: 120px;
+}
+.abcd h2 {
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
 }
