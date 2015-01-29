@@ -13,7 +13,9 @@ body {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    color:#e0e0e0;
+    color:#000;
+    background-color:#f3f3f3;
+
 }
 
 .img-portfolio {
@@ -91,4 +93,11 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+.home-jobs {
+background-color: #fff;
+}
+.job-box{
+margin:10px 0;
+
 }
