@@ -98,6 +98,13 @@ footer {
 background-color: #fff;
 }
 .job-box{
-margin:10px 0;
-
+ margin:10px 0;
+}
+.btn-more{
+text-align: center;
+text-decoration: none;
+}
+.btn-more:hover{
+text-align: center;
+text-decoration: none;
 }
