@@ -5513,6 +5513,9 @@ a.list-group-item-danger.active:focus {
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
   border-top: 1px solid #ddd;
+  max-height: 120px;
+  overflow: hidden;
+  overflow-y: auto;
 }
 .panel-group .panel-footer {
   border-top: 0;
@@ -6615,8 +6618,9 @@ font-weight: 800;
     width: 80%;
 }
 .bgc-fff {
+   background-color: #fff;
+    color: #667;
     padding: 10px;
-    background-color: #f6f7f8;
 }
 .brdr {
     border: 1px solid #ededed;

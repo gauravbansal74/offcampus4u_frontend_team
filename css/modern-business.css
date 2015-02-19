@@ -209,3 +209,44 @@ a:hover div.resumeWriting {
     text-align: center;
     margin-top: 96px;
 }
+.filter_list_box{
+    overflow: hidden;
+    padding: 3px 0;
+    width: 165px;
+    display: flex;
+}
+h3.filter_text {
+    font-size: 12px;
+    overflow: hidden;
+    position: relative;
+    top: 1px;
+    width: 145px;
+    margin:0;
+    padding: 0 0 0 5px;
+    vertical-align: middle;
+
+}
+label.apart{
+margin:0;
+padding: 0;
+}
+input.filter_checkbox{
+    margin:0;
+}
+input.filter_checkbox:focus{
+    outline:none;
+}
+.media-heading a{
+    text-decoration: none;
+
+}
+a.media-heading{
+    text-decoration: none;
+}
+a.media-heading:hover{
+    text-decoration: none;
+}
+.jobListing-box {
+    margin: 0 auto 10px 0;
+    border: 1px solid #ddd;
+}
